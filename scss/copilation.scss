@@ -1,0 +1,39 @@
+
+
+@import "presets";
+
+
+
+
+@media (min-width: 1024px){
+
+@import "grid-di";
+@import "services-di";
+@import "gallery.di";
+
+
+}
+
+
+
+@media(max-width: 1023px) and (min-width: 602px){
+
+@import "grids-ti";
+@import "services-ti";
+@import "gallery.ti";
+
+}
+
+@media(max-width: 601px) and (min-width: 350px){
+
+@import "grid-pi";
+@import "services-pi";
+@import "gallery-pi";
+
+}
+ 
+@media(max-width: 349px){
+    @import "closed-display";
+}
+
+@import "contact.scss";

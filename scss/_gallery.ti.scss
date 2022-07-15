@@ -1,0 +1,63 @@
+// ti = tablet interview
+.gBody{
+    background-color: gray;
+    display: grid;
+    grid-template-areas: 
+    "navBar "
+    "title"
+    "g1"
+    "feet"
+    ;
+
+
+    grid-template-columns:  1fr ;
+    grid-template-rows: 1fr 1fr 10fr 1fr;
+}
+
+
+.gFlexNav{
+
+    grid-area: gNav;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0.5vh;  
+    background-color: #fff;
+}
+
+.gFlexSpan{
+    padding: 1%;
+    margin: 2%;
+    
+}
+
+.gSpanIndex{
+    margin: 2vh;
+    padding: 1.5vh;
+    font-size: large;
+    border: solid 1px #000;
+    border-radius: 20px;
+    
+
+}
+
+.galleryPh{
+     width: 30%;
+     margin: 1%;
+     
+
+}
+.gallery1{
+   
+    grid-area: g1;
+    margin-top: 0.5vh ;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;    
+    
+    
+}
+
+

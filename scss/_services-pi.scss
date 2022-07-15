@@ -1,0 +1,131 @@
+// pi = phone interview
+
+
+.bodyServices{
+  
+    display: grid;
+    grid-template-areas: 
+    "navBar"
+    "sHead"
+    "title"
+    "sCard"    
+    "feet"
+
+    ;
+    
+    
+    
+
+
+   }
+
+.sHead{
+    grid-area: sHead;
+    background-color: $downorange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+} 
+
+
+
+.largeLogo{
+    width: 60%;
+}
+
+
+
+.sectionTitle{
+    margin-top: 0.5vh;
+    padding-top: 25%;
+    padding-bottom: 25%;
+    grid-area: title;
+    background-color: $downorange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.t4{
+    text-align: center;
+    background-color: $downorange;
+    font-size: 2rem;
+
+        
+}
+
+#sCard{
+    
+    grid-area: sCard;
+    background-color: $downorange;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 0.5vh;
+    
+    
+    
+    
+  }
+  
+.titleServices{
+    text-align: center;
+    font-size: 1.5rem;
+  }
+
+  .sContentCard{
+
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    align-items: center;
+    
+
+  }
+  
+  
+.sFlexCard{
+    width: 80%;
+    background-color: $background;
+    border-radius: 10px;
+    padding: 3%;
+    margin: 10%;
+  }
+  
+  
+.sPhoto{
+    width: 80%;
+    
+    
+  }
+  
+
+.cardText{
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.t2{
+  
+    width: 50%;
+    text-align: center;
+    font-size: 1rem;
+    padding: 1vh;
+   
+  }
+  
+.p2{
+ 
+    text-align: center;
+    width: 50%;
+    font-size: large;
+  }
+  
+  
