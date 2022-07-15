@@ -17,7 +17,7 @@ p {
 }
 
 body {
-  background-color: gray;
+  background-color: rgb(187, 185, 185);
 }
 
 a {
@@ -291,7 +291,7 @@ a:hover {
   }
   .sFlexCard {
     width: 10vh;
-    background-color: #D9D9D9;
+    background-color: rgb(187, 185, 185);
     border-radius: 20px;
     margin-bottom: 30vh;
     margin-top: 30vh;
@@ -634,7 +634,7 @@ a:hover {
   }
   .sFlexCard {
     width: 80%;
-    background-color: #D9D9D9;
+    background-color: rgb(187, 185, 185);
     border-radius: 10px;
     padding: 3%;
     margin: 10%;
@@ -733,7 +733,7 @@ a:hover {
     color: blue;
     background-color: rgba(230, 230, 230, 0.082);
     border-radius: 20px;
-    border: inset black 2px;
+    border: solid rgb(187, 185, 185) 0.5px;
     font-size: medium;
     padding: 3%;
     margin: 5%;
@@ -977,7 +977,7 @@ a:hover {
   }
   .sFlexCard {
     width: 80%;
-    background-color: #D9D9D9;
+    background-color: rgb(187, 185, 185);
     border-radius: 10px;
     padding: 3%;
     margin: 10%;
@@ -1026,7 +1026,7 @@ a:hover {
     margin: 0.5vh;
     padding: 0.75vh;
     font-size: medium;
-    border: solid 2px #000;
+    border: solid rgb(187, 185, 185) 0.5px;
     border-radius: 20px;
   }
   .galleryPh {
